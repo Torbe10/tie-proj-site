@@ -1,0 +1,15 @@
+#project-team {
+	text-align: center;
+}
+
+#content h1 {
+	text-align: center;
+}
+
+#top-button {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	z-index: 1;
+	text-align: center;
+}
