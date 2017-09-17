@@ -8,11 +8,11 @@ $(document).ready(function() {
 		//scroll without hash in url
 		$('html, body').animate({
 			'scrollTop': $target.offset().top-50
-		}, 1000, 'swing');
+		}, 400, 'swing');
 	});
 });
 
 function topFunction() {
-	$('html, body').animate({scrollTop: 0}, 1000);
+	$('html, body').animate({scrollTop: 0}, 400);
 	return false;
 }
