@@ -53,3 +53,15 @@ body {
 .col-md-4 {
 	padding-bottom: 1em;;
 }
+
+#iframe-hours {
+	width: 600px;
+	height: 600px;
+	border: none;
+}
+
+@media screen and (max-width: 600px) {
+    #iframe-hours {
+		width: 100%;
+	}
+}
