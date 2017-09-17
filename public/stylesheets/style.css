@@ -9,12 +9,33 @@ body {
 	padding-bottom: 200px;
 }
 
+nav {
+	max-width: 700px;
+	z-index: 1;
+	margin: auto;
+}
+
+.navbar-default {
+	border: 0;
+	background-color: rgb(225,235,225);
+}
+
+.navbar.navbar-fixed-top.navbar-default.navbar-custom a {
+	color: rgb(0,0,0);
+}
+
+.navbar.navbar-fixed-top.navbar-default.navbar-custom a:hover {
+	color: rgb(209,255,237);
+	background-color: rgb(39,174,96);
+}
+
 #project-team {
 	text-align: center;
 }
 
 #content {
 	max-width: 700px;
+	padding-top: 50px;
 }
 
 #content p {
@@ -51,5 +72,5 @@ body {
 }
 
 .col-md-4 {
-	padding-bottom: 1em;;
+	padding-bottom: 1em;
 }
