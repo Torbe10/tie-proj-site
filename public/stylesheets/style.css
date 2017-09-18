@@ -32,6 +32,15 @@ nav {
 	background-color: rgb(39,174,96);
 }
 
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav li {
+	flex-grow: 1;
+}
+
 #project-team, #project-burndown, #project-hours {
 	text-align: center;
 }
@@ -119,5 +128,13 @@ h1 {
 	.img-circle {
 		width:70%;
 		height:70%;
+	}
+
+	#project-burndown img {
+		width: 100%;
+	}
+
+	.navbar-header {
+		display: none;
 	}
 }
